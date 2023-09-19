@@ -1,0 +1,22 @@
+@import "font-awesome/css/font-awesome.min.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    user-select: none;
+}
+
+.search-table tr td, .search-table tr th {
+    border: 1px solid black;
+}
+
+.search-table tr:hover {
+    background: rgb(226 232 240);
+}
+
+.search-table tr:nth-child(even) {
+    background-color: rgb(226 232 240);
+}
+ 
