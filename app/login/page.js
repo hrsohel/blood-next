@@ -3,13 +3,13 @@ import React from "react";
 
 const page = () => {
   return (
-    <main className="flex h-screen w-full items-start justify-center">
+    <main className="flex bg-slate-100 h-screen w-full items-start justify-center">
       <Navbar />
-      <section className="overflow-y-scroll px-4 flex items-center justify-center h-full w-[95%] relative">
+      <section className="overflow-y-scroll px-4 flex items-center justify-center h-full w-[95%] relative lg:flex-nowrap flex-wrap">
         <form
           style={{ boxShadow: "2px 2px .5rem black" }}
           action=""
-          className="md:w-[60%] w-full rounded-md p-4"
+          className="w-full md:w-[50%] p-4 rounded-md"
         >
           <input
             type="email"
@@ -29,6 +29,13 @@ const page = () => {
             value="Login"
           />
         </form>
+        <video
+          src="/images\login.mp4"
+          muted
+          loop
+          autoPlay
+          className="md:ml-4 md:w-[30%] w-full md:h-[30rem] object-cover"
+        ></video>
       </section>
     </main>
   );

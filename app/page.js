@@ -25,7 +25,7 @@ const page = () => {
       </div> */}
       <Navbar />
       <section className="overflow-y-scroll h-full w-[95%] relative ">
-        <div className="h-full">
+        <div className="h-[40%] md:h-full sm:h-1/2">
           <Image
             src="/images/blood-image1.png"
             className="w-full h-full object-cover"
@@ -35,7 +35,7 @@ const page = () => {
           />
         </div>
         <div className="flex my-2 px-4 items-center justify-center md:flex-nowrap flex-wrap">
-          <div className="md:w-[50%]">
+          <div className="md:w-[50%] my-4">
             <h1 className="text-2xl">BLOOD GROUPS</h1>
             <p className="md:text-lg text-sm ">
               blood group of any human being will mainly fall in any one of the
