@@ -11,19 +11,19 @@ const RegisterForm = () => {
             <input
               id="fullname"
               type="text"
-              className="p-1 text-lg my-2 rounded-md w-full mx-0 md:mx-4 border-[1px] border-black focus:border-red-500 outline-none"
+              className="p-1 text-sm md:text-lg my-2 rounded-md w-full mx-0 md:mx-4 border-[1px] border-black focus:border-red-500 outline-none"
               required={true}
               placeholder="Full name"
             />
             <input
               type="number"
-              className="p-1 text-lg my-2 rounded-md w-full mx-0 md:mx-4 border-[1px] border-black focus:border-red-500 outline-none"
+              className="p-1 text-sm md:text-lg my-2 rounded-md w-full mx-0 md:mx-4 border-[1px] border-black focus:border-red-500 outline-none"
               required={true}
               placeholder="Phone"
             />
             <input
               type="email"
-              className="p-1 text-lg my-2 rounded-md w-full mx-0 md:mx-4 border-[1px] border-black focus:border-red-500 outline-none"
+              className="p-1 text-sm md:text-lg my-2 rounded-md w-full mx-0 md:mx-4 border-[1px] border-black focus:border-red-500 outline-none"
               required={true}
               placeholder="Email"
             />
@@ -31,16 +31,16 @@ const RegisterForm = () => {
           <div className="">
             <input
               type="date"
-              className="p-1 text-lg my-2 rounded-md w-full mx-0 md:mx-4 border-[1px] border-black focus:border-red-500 outline-none"
+              className="p-1 text-sm md:text-lg my-2 rounded-md w-full mx-0 md:mx-4 border-[1px] border-black focus:border-red-500 outline-none"
               required={true}
               placeholder=""
             />
             <textarea
-              className="p-1 text-lg my-2 rounded-md w-full mx-0 md:mx-4 border-[1px] border-black focus:border-red-500 outline-none"
+              className="p-1 text-sm md:text-lg my-2 rounded-md w-full mx-0 md:mx-4 border-[1px] border-black focus:border-red-500 outline-none"
               required={true}
               placeholder="Address"
             ></textarea>
-            <select className="p-1 text-lg my-2 rounded-md w-full mx-0 md:mx-4 border-[1px] border-black focus:border-red-500 outline-none">
+            <select className="p-1 text-sm md:text-lg my-2 rounded-md w-full mx-0 md:mx-4 border-[1px] border-black focus:border-red-500 outline-none">
               <option value="">Select blood group</option>
               <option value="A+">A+</option>
               <option value="A-">A-</option>
@@ -55,20 +55,20 @@ const RegisterForm = () => {
           <div className="">
             <input
               type="date"
-              className="p-1 text-lg my-2 rounded-md w-full mx-0 md:mx-4 border-[1px] border-black focus:border-red-500 outline-none"
+              className="p-1 text-sm md:text-lg my-2 rounded-md w-full mx-0 md:mx-4 border-[1px] border-black focus:border-red-500 outline-none"
               required={true}
               placeholder="Last donated"
             />
             <input
               type="password"
-              className="p-1 text-lg my-2 rounded-md w-full mx-0 md:mx-4 border-[1px] border-black focus:border-red-500 outline-none"
+              className="p-1 text-sm md:text-lg my-2 rounded-md w-full mx-0 md:mx-4 border-[1px] border-black focus:border-red-500 outline-none"
               required={true}
               placeholder="Set password"
             />
           </div>
         </div>
         <input
-          className="bg-red-500 cursor-pointer text-white px-4 py-2 text-xl rounded-md md:ml-4"
+          className="bg-red-500 cursor-pointer text-white px-4 py-2 text-sm md:text-xl rounded-md md:ml-4"
           type="submit"
           value="Become a donor"
         />

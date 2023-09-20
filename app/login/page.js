@@ -1,4 +1,4 @@
-import Navbar from "@/components/Navbar";
+import Navbar from "../../components/Navbar";
 import React from "react";
 
 const page = () => {
@@ -13,18 +13,18 @@ const page = () => {
         >
           <input
             type="email"
-            className="p-1 text-lg my-2 rounded-md w-full border-[1px] border-black focus:border-red-500 outline-none"
+            className="p-1 text-sm md:text-lg my-2 rounded-md w-full border-[1px] border-black focus:border-red-500 outline-none"
             placeholder="Email"
             required={true}
           />
           <input
             type="password"
-            className="p-1 text-lg my-2 rounded-md w-full border-[1px] border-black focus:border-red-500 outline-none"
+            className="p-1 text-sm md:text-lg my-2 rounded-md w-full border-[1px] border-black focus:border-red-500 outline-none"
             placeholder="Password"
             required={true}
           />
           <input
-            className="bg-red-500 cursor-pointer text-white px-4 py-2 text-xl rounded-md"
+            className="bg-red-500 cursor-pointer text-white px-4 py-2 text-sm md:text-xl rounded-md"
             type="submit"
             value="Login"
           />

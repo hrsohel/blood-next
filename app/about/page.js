@@ -1,4 +1,4 @@
-import Navbar from "@/components/Navbar";
+import Navbar from "../../components/Navbar";
 import React from "react";
 
 const pages = () => {
@@ -11,7 +11,7 @@ const pages = () => {
             <span className="text-red-500">A</span>bout{" "}
             <span className="text-red-500">U</span>s
           </h1>
-          <p className="text-lg">
+          <p className="text-sm md:text-lg">
             This is a non-profitable,service motive Circle of Youths purely
             devoted for the welfare of society.Encouraging and inspiring people
             to donate blood and providing fresh blood to the needy people

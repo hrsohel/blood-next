@@ -1,4 +1,4 @@
-import Navbar from "@/components/Navbar";
+import Navbar from "../components/Navbar";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -34,7 +34,34 @@ const page = () => {
             alt="Home image"
           />
         </div>
-        <div className="flex my-2 px-4 items-center justify-center md:flex-nowrap flex-wrap">
+        <div className="my-20">
+          <h1 className="text-2xl my-12 font-bold text-center">OUR SERVICES</h1>
+          <div className="my-2 flex items-center justify-center md:justify-between px-3 md:px-8 md:flex-nowrap flex-wrap">
+            <div className="text-center">
+              <i className="fa fa-flask text-8xl text-red-500"></i>
+              <h2 className="text-xl font-semibold">We test blood group</h2>
+            </div>
+            <div className="text-center md:my-0 my-4 mx-4">
+              <Image
+                src="/images\blood take icon.png"
+                width="100"
+                height="100"
+                alt="take blood"
+                className="block mx-auto"
+              />
+              <h2 className="text-xl font-semibold">
+                We take blood for donation
+              </h2>
+            </div>
+            <div className="text-center">
+              <i className="fa fa-users text-8xl text-red-500"></i>
+              <h2 className="text-[1rem] font-semibold">
+                We manage donor for patients
+              </h2>
+            </div>
+          </div>
+        </div>
+        <div className="flex my-2 px-4 items-start justify-center md:flex-nowrap flex-wrap">
           <div className="md:w-[50%] my-4">
             <h1 className="text-2xl">BLOOD GROUPS</h1>
             <p className="md:text-lg text-sm ">
@@ -49,8 +76,7 @@ const page = () => {
             </ul>
             <p className="md:text-lg text-sm">
               A healthy diet helps ensure a successful blood donation, and also
-              makes you feel better! Check out the following recommended foods
-              to eat prior to your donation.
+              makes you feel better!
             </p>
           </div>
           <div className="w-full md:w-1/2">
