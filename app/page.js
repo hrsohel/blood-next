@@ -25,7 +25,7 @@ const page = () => {
       </div> */}
       <Navbar />
       <section className="overflow-y-scroll h-full w-[95%] relative ">
-        <div className="f-full">
+        <div className="h-full">
           <Image
             src="/images/blood-image1.png"
             className="w-full h-full object-cover"

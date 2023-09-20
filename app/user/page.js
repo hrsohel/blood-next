@@ -7,7 +7,7 @@ const page = () => {
     <main className="flex h-screen w-full items-start justify-center">
       <Navbar />
       <section className="overflow-y-scroll flex items-center justify-around md:flex-none flex-wrap h-full w-[95%] relative p-4">
-        <div className="w-[20rem] h-[20rem] rounded-full relative">
+        <div className="w-[15rem] lg:w-[20rem] h-[15rem] lg:h-[20rem] rounded-full relative">
           <Image
             src="/images\account-avatar-profile-user-11.svg"
             className="w-full h-full rounded-full object-cover"
