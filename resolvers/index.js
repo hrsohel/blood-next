@@ -1,9 +1,17 @@
-const fullNames = {
-  firstName: "HR",
-  lastName: "Sohel",
-};
+import {
+  addUser,
+  loginUser,
+  getUser,
+  getUserByBloodGroup,
+} from "../resolvers/userController";
+
 export const resolvers = {
   Query: {
-    fullName: () => fullNames,
+    getUser,
+    getUserByBloodGroup,
+  },
+  Mutation: {
+    addUser,
+    loginUser,
   },
 };

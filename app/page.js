@@ -92,49 +92,49 @@ const page = () => {
         <div className="flex items-center justify-around my-4 flex-wrap">
           <Link
             className="text-xl w-[10rem] my-2 rounded-md text-center text-red-500 border-[1px] border-red-500 px-4 py-2 hover:bg-red-500 hover:text-white"
-            href="#"
+            href="/search-donor?bloodGroup=A%2B"
           >
             A+
           </Link>
           <Link
             className="text-xl w-[10rem] my-2 rounded-md text-center text-red-500 border-[1px] border-red-500 px-4 py-2 hover:bg-red-500 hover:text-white"
-            href="#"
+            href="/search-donor?bloodGroup=A-"
           >
             A-
           </Link>
           <Link
             className="text-xl w-[10rem] my-2 rounded-md text-center text-red-500 border-[1px] border-red-500 px-4 py-2 hover:bg-red-500 hover:text-white"
-            href="#"
+            href="/search-donor?bloodGroup=AB%2B"
           >
             AB+
           </Link>
           <Link
             className="text-xl w-[10rem] my-2 rounded-md text-center text-red-500 border-[1px] border-red-500 px-4 py-2 hover:bg-red-500 hover:text-white"
-            href="#"
+            href="/search-donor?bloodGroup=AB-"
           >
             AB-
           </Link>
           <Link
             className="text-xl w-[10rem] my-2 rounded-md text-center text-red-500 border-[1px] border-red-500 px-4 py-2 hover:bg-red-500 hover:text-white"
-            href="#"
+            href="/search-donor?bloodGroup=B%2B"
           >
             B+
           </Link>
           <Link
             className="text-xl w-[10rem] my-2 rounded-md text-center text-red-500 border-[1px] border-red-500 px-4 py-2 hover:bg-red-500 hover:text-white"
-            href="#"
+            href="/search-donor?bloodGroup=B-"
           >
             B-
           </Link>
           <Link
             className="text-xl w-[10rem] my-2 rounded-md text-center text-red-500 border-[1px] border-red-500 px-4 py-2 hover:bg-red-500 hover:text-white"
-            href="#"
+            href="/search-donor?bloodGroup=O%2B"
           >
             O+
           </Link>
           <Link
             className="text-xl w-[10rem] my-2 rounded-md text-center text-red-500 border-[1px] border-red-500 px-4 py-2 hover:bg-red-500 hover:text-white"
-            href="#"
+            href="/search-donor?bloodGroup=O-"
           >
             O-
           </Link>

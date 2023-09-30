@@ -1,10 +1,17 @@
 "use client";
-import Link from "next/link";
 import React from "react";
+import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { GET_USER_BY_EMAIL } from "@/queryStrings";
+import { useApollo } from "@/client";
 
-const Navbar = () => {
+const NavbarContent = () => {
   const path = usePathname();
+  const client = useApollo();
+  const user = client.readQuery({
+    query: GET_USER_BY_EMAIL,
+  });
+  console.log(user);
   return (
     <>
       <header className="flex relative min-h-screen items-center flex-col w-[5%] p-4 bg-[#333]">
@@ -59,4 +66,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default NavbarContent;
