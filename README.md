@@ -32,6 +32,6 @@ A web-based blood donation platform that connects blood donors with those in nee
   - **MongoDB**: For database management.
 
 ---
-## **Tech Stack**
+## **Login**
 -Email: sohel@gmail.com
 -Password: sohel
