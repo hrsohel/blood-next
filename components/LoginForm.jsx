@@ -35,7 +35,7 @@ const LoginForm = () => {
         <input
           type="email"
           className="p-1 text-sm md:text-lg my-2 rounded-md w-full border-[1px] border-black focus:border-red-500 outline-none"
-          placeholder="Email"
+          placeholder="Enter Email"
           required={true}
           name="email"
         />
@@ -44,7 +44,7 @@ const LoginForm = () => {
           className="p-1 text-sm md:text-lg my-2 rounded-md w-full border-[1px] border-black focus:border-red-500 outline-none"
           placeholder="Password"
           required={true}
-          name="password"
+          name="Enter Password"
         />
         {data?.loginUser?.__typename === "ErrorMessage" ? (
           <div className="bg-red-300 text-red-600 my-2 text-lg text-center">
